@@ -1,0 +1,13 @@
+def solutions(a,b,c):
+    if b**2 - 4*a*c > 0:
+        print(2)
+    elif b**2 - 4*a*c == 0:
+        print(1)
+    else:
+        print(0)
+        
+        
+For the logical reasoning question, only the fact
+that the third Saturday is the seventeeth is needed.
+You know the seventeeth is a Saturday, so just
+go backwards three days to find that the fourteenth is a Wednesday.
